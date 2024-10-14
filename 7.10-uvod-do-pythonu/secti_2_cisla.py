@@ -4,4 +4,6 @@ b = int(input("napis druhe cislo: "))
 
 
 print("prvni + druhe cislo je:")
-print(a + b)
+
+c = a + b
+print(c)
