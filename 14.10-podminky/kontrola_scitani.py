@@ -10,3 +10,14 @@ if vysledek == opravdovy_vysledek:
 
 else:
     print("Neumis pocitat")
+
+'''
+int = integer = cele cislo (Jde sčítat a odečítat)
+str = string = text (Nedá se sčítat a odečítat ale můžou v něm být písmena)
+bool = boolean = pravda/nepravda (True/False) (To je to co vám dá podmínka např:.
+
+i = 1
+
+i == 1 --> True(Pravda)
+
+'''
