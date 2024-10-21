@@ -8,6 +8,7 @@ while i <= 10: #Dělej dokud i je menší rovno 10
     print(i) #vypiš proměnnou i
 
 
+
 #Tohle bude do nekonečna psát Hello, World!
 while True: #Dokud True je pravda (Do nekonečna)
     print("Hello, World!") #Vypiš text Hello, Wold!
