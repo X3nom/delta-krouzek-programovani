@@ -12,7 +12,7 @@
 |Porovnávací operátory|Vysvětlivky|
 |---------------------|-----------| 
 |`==`|Vrací `True` pokud se obě strany rovnají|
-|`<`|Vrací `True` pokud je levá strana menší než druhá| 
+|`<`|Vrací `True` pokud je levá strana menší než druhá|
 |`>`|Vrací `True` pokud je pravá strana menší než levá|
 |`<=`|Vrací `True` pokud je levá strana menší nebo se rovná právé|
 |`>=`|Vrací `True` pokud je pravá strana menší nebo se rovná levé|
