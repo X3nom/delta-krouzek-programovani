@@ -28,6 +28,9 @@ program by měl vypsat:
 
 ## 3. Funkce, která řekne, zda je číslo sudé
 Napiš funkci `je_sude(cislo)`, která vrátí `True`, pokud je číslo sudé, jinak `False`.
+> Použijte `%` = "modulo" = matematický operátor, který nám dá zbytek po dělení. (`3 % 2 = 1` protože zbytek po 3/2 je 1)
+> 
+> Sudá čísla jsou vždy dělitelná 2 beze zbytku
 
 program:
 ```python
