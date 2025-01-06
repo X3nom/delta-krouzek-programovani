@@ -14,3 +14,7 @@ Napište program, který projde seznam čísel a vytiskne pouze čísla větší
 
 **Nápověda**
 - Použij `for` cyklus, který projde každé číslo a pomocí `if` podmínky zkontroluje, jestli je číslo větší než 5.
+
+![github](file.png)
+
+tinyurl.com/delta-krouzek
