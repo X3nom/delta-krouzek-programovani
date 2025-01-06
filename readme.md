@@ -68,3 +68,51 @@ for i in seznam:
         print("číslo " + i + " je větší než 5")
     else:
         print("číslo" + i + " není větší než 5")
+```
+
+Můžeme je použít jako jednoduché počítání
+```python
+# vypíše čísla od 0 do 9
+for i in range(10):s
+    print(i)
+```
+
+
+## Seznam (list)
+Představte si je jako více poměnných v jedné.
+
+```python
+muj_list = [3,1,4]
+# muj list je list o délce 3, který obsahuje čísla 3, 1 a 4
+```
+
+K hodnotě v listu přistupujeme pomocí "indexu" - pozice, na které se nachází.
+
+Indexy začínají od 0 => první prvek v seznamu je na indexu 0, druhý je na indexu 1, ...
+
+
+```python
+muj_list = [3,1,4]
+
+print(muj_list[0]) # vypise 3 (prvek listu na 2. pozici)
+print(muj_list[1]) # vypise 1 (prvek listu na 2. pozici)
+```
+
+Do listu můžeme přidávat nové hodnoty pomocí `.append(<co chci přidat>)` a odebírat pomocí `.pop(<index, který chci odstranit>)`
+
+```python
+muj_list = [3, 2, 4]
+
+print(muj_list) # [3, 2, 4]
+
+muj_list.append(6)
+
+print(muj_list) # [3, 2, 4, 6]
+
+odebrana_hodnota = muj_list.pop(1)
+
+print(odebrana_hodnota) # 2
+
+print(muj_list) # [3, 4, 6]
+
+```
