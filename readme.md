@@ -97,6 +97,16 @@ muj_list = [3,1,4]
 print(muj_list[0]) # vypise 3 (prvek listu na 2. pozici)
 print(muj_list[1]) # vypise 1 (prvek listu na 2. pozici)
 ```
+Kromě výpisu lze samozřejmě na index i *zapisovat*. To provedeme jako kdyby to byla kterákoli jiná proměnná.
+```python
+muj_list = [3,1,4]
+
+print(muj_list) # [3, 1, 4]
+
+muj_list[1] = 999
+
+print(muj_list) # [3, 999, 4]
+```
 
 Do listu můžeme přidávat nové hodnoty pomocí `.append(<co chci přidat>)` a odebírat pomocí `.pop(<index, který chci odstranit>)`
 
