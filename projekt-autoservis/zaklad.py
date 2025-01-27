@@ -13,6 +13,20 @@ def pridej_auto():
 
     return [poskozeni, barva, model, cena, SPZ, majitel]
 
+
+def odeber_auto(autoservis):
+    vybrane = int(input("co ches smazat: "))
+    autoservis.pop(vybrane)
+
+
+def zmenit_auto(autoservis):
+    vybrane = int(input("co ches zmenit: "))
+
+    auto = pridej_auto()
+    autoservis[vybrane] = auto
+
+
+
 def napoveda():
     print("1 - Přidání auta")
     print("2 - Odebrání auta")
@@ -38,11 +52,18 @@ while True:
 
     if vstup == "help":
         napoveda()
+
     elif vstup == "1":
         autoservis.append(pridej_auto())
+
+    elif vstup == "2":
+        odeber_auto(autoservis)
+    
+    elif vstup == "3":
+        zmenit_auto(autoservis)
+
     elif vstup == "4":
         vypsat_auta(autoservis)
+
     elif vstup == "exit":
         break
-    elif vstup == "help":
-        napoveda()
